@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Text Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="page">
+
+    <h1>AI Text Generator</h1>
+    <p class="subtitle">
+        Generate meaningful paragraphs using Artificial Intelligence
+    </p>
+
+    <div class="card">
+        <form method="POST">
+            <label for="seed">Enter Topic / Seed Text</label>
+            <input 
+                type="text" 
+                name="seed" 
+                id="seed"
+                placeholder="e.g. Artificial intelligence in healthcare"
+                value="{{ input_text }}"
+                required
+            >
+            <button type="submit">Generate Text</button>
+        </form>
+
+        {% if input_text %}
+        <div class="result">
+            <h3>Your Input</h3>
+            <p class="input-text">{{ input_text }}</p>
+        </div>
+        {% endif %}
+
+        {% if output %}
+        <div class="result">
+            <h3>Generated Paragraph</h3>
+            <p class="output-text">{{ output }}</p>
+        </div>
+        {% endif %}
+    </div>
+
+</div>
+
+</body>
+</html>
