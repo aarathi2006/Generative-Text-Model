@@ -1,9 +1,14 @@
 #  Generative-Text-Model
 COMPANY : CODTECH IT SOLUTIONS
+
 NAME : BODDU AARATHI
+
 INTERN ID : CT08DR2286
+
 DOMAIN : ARTIFICIAL INTELLIGENCE
+
 DURATION : 8 WEEKS
+
 MENTOR : NEELA SANTHOSH
 
 A lightweight **AI Text Generation** project using **LSTM** and **Flask** that generates **coherent, readable paragraphs** on multiple domains including **Healthcare, Finance, and Education**. The system is domain-aware, memory-efficient, and optimized for low-resource machines.
