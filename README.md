@@ -27,3 +27,4 @@ The workflow of the project is as follows:
 4. **Output Display**: The generated paragraph appears **below the input** on the same page.
 5. **Optional Wordwise Generation**: The model can generate additional sentences word by word for variability.
 
+![Image](https://github.com/user-attachments/assets/51456104-07a3-44cf-8b1b-fcaa29fb7b91)
